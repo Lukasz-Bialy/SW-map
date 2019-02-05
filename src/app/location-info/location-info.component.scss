@@ -1,0 +1,33 @@
+.info {
+  background-color: white;
+  height: 100%;
+  opacity: 0.3;
+  width: 100%;
+  position: absolute;
+
+}
+
+.ontop {
+  font-family: 'IM Fell English SC', serif;
+  margin: 10% 10% 10% 10%;
+  position: relative;
+  color:black;
+  font-size: 30px;
+}
+
+.description_name {
+  width:50%;
+  background:blue;
+  float:left;
+
+}
+
+.description_value {
+  background:navy;
+
+
+}
+
+.single_description{
+  margin: 10px;
+}

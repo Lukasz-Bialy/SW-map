@@ -1,0 +1,40 @@
+
+
+.active-link{
+  color: forestgreen;
+ }
+
+a{
+  outline: 0;
+}
+
+a:hover{
+  opacity:0.6;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navibtn:focus{
+  outline:0;
+}
+.navbar{
+  padding: 0px;
+}
+.navbar-dark{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.nav-link{
+  font-size: 40px;
+}
+
+.navbutton{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  left: 47.5%;
+  margin-top: 35px;
+  border: none;
+  outline:0;
+}

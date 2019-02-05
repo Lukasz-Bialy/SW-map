@@ -1,0 +1,8 @@
+<agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom" (mapClick)="onChoseLocation($event)">
+  <agm-marker (markerClick)="onMarkerClick($event)" *ngFor="let m of park_points; let i = index"
+    [latitude]="m.lat"
+    [longitude]="m.lng"
+  >
+  </agm-marker>
+</agm-map>
+
