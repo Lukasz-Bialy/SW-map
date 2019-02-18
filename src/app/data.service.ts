@@ -6,7 +6,7 @@ import { BehaviorSubject} from 'rxjs';
 })
 export class DataService {
 
-  private messageSource = new BehaviorSubject('defaults message');
+  private messageSource = new BehaviorSubject("nic");
   currentMessage = this.messageSource.asObservable();
 
   constructor() { }

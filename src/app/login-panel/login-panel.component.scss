@@ -1,0 +1,149 @@
+label{
+  margin-bottom: 0;
+}
+h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+img{
+  width: 40%;
+}
+input{
+  background-color: #e3e0cf;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 0;
+}
+.container-log{
+  height: 1000px;
+  width: 100%;
+  margin:0;
+}
+
+.forms{
+  background-color: #1d2120;
+  max-width:40%;
+  margin:8% 30% 15% 30%;
+  position: absolute;
+  font-family: Arial black;
+}
+
+.hide{
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transition: opacity .2s , visibility .2s;
+}
+
+.benefit-item{
+  border: solid #e3e0cf;
+  margin-top: 15px;
+  padding-top:10px;
+  font-size: 14px;
+}
+
+.login-left, .register-right{
+  width:65%;
+  float:left;
+  padding-bottom: 0px;
+}
+
+.float-right{
+  float:right
+}
+
+.register-left, .login-right{
+  width:30%;
+  float:left;
+  margin: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+.login-padding{
+  padding: 0px 15px 0px 15px;
+}
+
+.title{
+  margin-bottom: 40px;
+}
+
+.card-title{
+  background-color: #e3e0cf;
+  color:#1d2120;
+  margin: 15px 15px 15px 15px;
+  padding: 25px 15px 25px 15px;
+  font-family: "Century Schoolbook L";
+  text-align: center;
+}
+
+.form-piece{
+  padding: 0px 30px 20px 30px;
+  width: 100%;
+}
+.register-right>p{
+  font-size: 10px;
+  padding-bottom: 0;
+  margin: 5px 0 0 0;
+}
+
+.login-button{
+  width:89%;
+  height: 50px;
+  color:white;
+  background-color: #1d2120;
+  margin: 0px 30px 15px 30px;
+  outline:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.login-button:hover{
+  background-color: #8e909a;
+  color:black;
+}
+
+.login-button-margin{
+  margin-top:10px;
+}
+
+.card-button{
+  font-size:15px;
+  border:none;
+  vertical-align: middle;
+  width: 30%;
+  background-color: #e3e0cf;
+  outline: none;
+  transition: width 1s, font-size 1s, background-color 1s;
+  color:black;
+  background-color: #5a5c51;
+  height: 45px;
+}
+
+.active-button{
+  width:70%;
+  font-size:30px;
+  background-color: #e3e0cf;
+}
+
+.card-button:hover{
+  background-color: #bcd5d1;
+}
+
+.form-control{
+  border-radius: 0;
+}
+.other-login-elem{
+  border: solid #e3e0cf;
+  margin-top: 35px;
+  padding: 10px 0 20px 0;
+}
+.other-login-elem:hover{
+  background-color: #e3e0cf;
+  color:black;
+}
+
+
+

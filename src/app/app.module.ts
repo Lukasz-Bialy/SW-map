@@ -11,6 +11,8 @@ import { GoogleMapComponent } from './google-map/google-map.component';
 import {HttpClientModule} from '@angular/common/http';
 import {AgmCoreModule} from '@agm/core';
 import { LocationInfoComponent } from './location-info/location-info.component';
+import { LoginPanelComponent } from './login-panel/login-panel.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LocationInfoComponent } from './location-info/location-info.component';
     HomeComponent,
     MapComponent,
     GoogleMapComponent,
-    LocationInfoComponent
+    LocationInfoComponent,
+    LoginPanelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

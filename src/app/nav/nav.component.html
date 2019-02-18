@@ -1,22 +1,20 @@
 <div class="collapse show" id="navbarToggleExternalContent">
-  <div  class="p-2 navbar-dark">
-    <ul class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a routerLink="/home" routerLinkActive="active-link" class="nav-link" >Strona główna</a>
-      </li>
-      <li class="nav-item">
-        <a routerLink="/maps" class="nav-link" routerLinkActive="active-link">Mapy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="imprezy.html">Imprezy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.html">Logowanie</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="autor.html">O autorze</a>
-      </li>
-    </ul>
+  <div  class="p-0 navbar-dark">
+    <div class="nav dip-block">
+        <div class="small">
+          <a routerLink="/home" routerLinkActive="active-link" class="nav-link" >Home</a>
+        </div>
+       <div class="small">
+         <a routerLink="/maps" routerLinkActive="active-link" class="nav-link" >Mapy</a>
+       </div>
+        <div class="small">
+          <a class="nav-link" href="imprezy.html">Imprezy</a>
+        </div>
+    </div>
+    <div class="small register dip-block">
+      <a routerLink="/login" routerLinkActive="active-link" >Zaloguj</a><br>
+      <a href="/login" >Zarejestruj</a>
+    </div>
   </div>
 </div>
 <nav class="navbar navbar-dark">
